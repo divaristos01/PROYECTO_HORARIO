@@ -1,0 +1,80 @@
+html{
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+ 
+header{
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    background-color: #0bc0e0;
+}
+ 
+header h1{
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: 'Playfair Display', 'Bodoni MT', Didot, 'Times New Roman', serif;
+    text-decoration: underline;
+    color: black;
+    margin: 0;
+    height: 100%;
+    /* para centrar el titulo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+main{
+    height: 480px;
+    background-color: #0bc0e0;
+    color: black;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+ 
+form{
+    /* pongo los desplegables y el boton en columna y centrados */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+ 
+select{
+    width: 355px;
+    height: 95px;
+    background-color: white;
+    border: 2px solid #b5b5b5;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+input[type="submit"]{
+    width: 355px;
+    height: 70px;
+    background-color: #006ea4;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;/*cuando pase el cursor se cambia*/
+}
+ 
+input[type="submit"]:hover{
+    background-color: aliceblue;
+    color: #006ea4;
+    transition-duration: 1s;
+}
